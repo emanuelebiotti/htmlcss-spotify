@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+.side-menu {
+  height: 100%;
+  background-color: black;
+  color:white;
+  position: fixed;
+  top:0;
+  left:0;
+  z-index: 998;
+}
+.logo {
+  height:80px;
+  color:white;
+  font-size:25px;
+  font-weight: bold;
+  padding:25px 20px;
+  border:1px solid red;
+}
+.logotype {
+  font-size: 150%;
+  font-weight:normal;
+}
+.options {
+  color:white;
+}
+.options ul {
+  margin-top:30px;
+  list-style-type: none;
+  padding-inline-start: 0px;
+  margin-bottom: 40px;
+}
+.options ul li {
+  padding:10px;
+  padding-inline-start: 0px;
+}
+.options ul li a {
+  color:#b7c0ce;
+  text-decoration: none;
+}
+.options ul li a:hover {
+  color:white;
+}
+.mb-25 {
+  margin-bottom:25px;
+}
+.access a.signup {
+  padding:7px 60px;
+  color:black;
+  background-color: white;
+  border:1px solid white;
+  border-radius: 20px;
+  font-size:90%;
+}
+a.signup:hover {
+  text-decoration: none;
+  color:black;
+}
+.access a.enter {
+  padding:7px 60px;
+  color:white;
+  background-color: black;
+  border:1px solid white;
+  border-radius: 20px;
+  font-size:90%;
+}
+a.enter:hover {
+  text-decoration: none;
+}
+.content {
+  background-image: linear-gradient(to bottom right, #3B3D46, #1D1E22, #040505);
+}
+.white {
+  color:white;
+}
+.content-menu {
+  width:100%;
+  height:100px;
+  border:1px solid red;
+}
+.content-menu ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+.content-menu ul li {
+  display:inline-block;
+  padding:40px 20px;
+}
+.content-menu ul li a {
+  color:#b7c0ce;
+  text-decoration: none;
+}
+.content-menu ul li a:hover {
+  color:white;
+}
+.albums {
+  border:1px solid red;
+  height:500px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+}
+.album {
+  width:16.6%;
+  height:50%;
+  padding:10px 10px;
+}
+.album img {
+  width:100%;
+  height:auto;
+}
+.top {
+  border:1px solid red;
+  height:250px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+}
+.play {
+  height:100px;
+  border:1px solid red;
+  background-color: #181818;
+  position: fixed;
+  bottom:0;
+  z-index: 999;
+  color:white;
+}
+.control {
+  height: 100%;
+  border:1px solid red;
+}
+.play .control ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+  padding:40px 10px;
+}
+.play .control ul li {
+  display:inline-block;
+  padding-inline-start: 0;
+  padding:0 10px;
+}
