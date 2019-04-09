@@ -46,7 +46,7 @@
   margin-bottom:25px;
 }
 .access a.signup {
-  padding:7px 60px;
+  padding:7px 65px;
   color:black;
   background-color: white;
   border:1px solid white;
@@ -58,7 +58,7 @@ a.signup:hover {
   color:black;
 }
 .access a.enter {
-  padding:7px 60px;
+  padding:7px 70px;
   color:white;
   background-color: black;
   border:1px solid white;
@@ -69,7 +69,7 @@ a.enter:hover {
   text-decoration: none;
 }
 .content {
-  background-image: linear-gradient(to bottom right, #3B3D46, #1D1E22, #040505);
+  background-image: linear-gradient(to bottom right, #331F08, #201406, #070502);
 }
 .white {
   color:white;
