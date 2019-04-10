@@ -16,7 +16,6 @@
   font-size:25px;
   font-weight: bold;
   padding:25px 20px;
-  border:1px solid red;
 }
 .logotype {
   font-size: 150%;
@@ -77,7 +76,6 @@ a.enter:hover {
 .content-menu {
   width:100%;
   height:100px;
-  border:1px solid red;
 }
 .content-menu ul {
   list-style-type: none;
@@ -95,7 +93,6 @@ a.enter:hover {
   color:white;
 }
 .albums {
-  border:1px solid red;
   width:100%;
   height:500px;
   display:flex;
@@ -112,7 +109,6 @@ a.enter:hover {
   height:auto;
 }
 .top {
-  border:1px solid red;
   width:100%;
   height:250px;
   display:flex;
@@ -121,7 +117,6 @@ a.enter:hover {
 }
 .play {
   height:100px;
-  border:1px solid red;
   background-color: #181818;
   position: fixed;
   bottom:0;
@@ -130,7 +125,6 @@ a.enter:hover {
 }
 .control {
   height: 100%;
-  border:1px solid red;
 }
 .play .control ul {
   list-style-type: none;
@@ -141,4 +135,10 @@ a.enter:hover {
   display:inline-block;
   padding-inline-start: 0;
   padding:0 10px;
+}
+.play .control ul li a {
+  color:#b7c0ce;
+}
+.play .control ul li a:hover {
+  color:white;
 }
