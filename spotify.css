@@ -67,6 +67,12 @@ a.signup:hover {
 a.enter:hover {
   text-decoration: none;
 }
+small a {
+  color:#b7c0ce;
+}
+small a:hover {
+  color:white;
+}
 .content {
   background-image: linear-gradient(to bottom right, #331F08, #201406, #070502);
 }
@@ -141,4 +147,9 @@ a.enter:hover {
 }
 .play .control ul li a:hover {
   color:white;
+}
+.playbutton a {
+  padding:8px;
+  border: 1px solid white;
+  border-radius: 50%;
 }
