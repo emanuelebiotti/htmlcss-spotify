@@ -17,9 +17,16 @@
   font-weight: bold;
   padding:25px 20px;
 }
+.logo a {
+  color:white;
+}
+.logo a:hover {
+  text-decoration: none;
+}
 .logotype {
   font-size: 150%;
   font-weight:normal;
+  color:white;
 }
 .options {
   color:white;
